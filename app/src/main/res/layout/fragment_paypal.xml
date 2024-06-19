@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.PaypalFragment"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/txtNombreEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txt_nombre_empresa"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+
+        <!-- Información del artículo a comprar -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/articulo_nombre"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/articulo_descripcion"
+            android:textSize="16sp"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Precio del artículo -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/articulo_precio"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Campo para ingresar la cantidad a pagar -->
+        <EditText
+            android:id="@+id/editCantidadPagar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_cantidad_pagar"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="20dp"/>
+
+        <!-- Botón para iniciar el proceso de pago con PayPal -->
+        <Button
+            android:id="@+id/btnPagarPaypal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_pagar_paypal"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif-medium"
+            android:backgroundTint="@color/fondoBarra"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/oie_transparent"
+            android:contentDescription="@string/logo_paypal"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</FrameLayout>

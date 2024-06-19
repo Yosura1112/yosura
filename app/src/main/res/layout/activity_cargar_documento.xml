@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.CargarDocumentoActivity"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="26dp">
+        <Button
+            android:id="@+id/btnAtrascargardoc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btnAtrascargardoc"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/fondoBarra"/>
+        <Button
+            android:id="@+id/btnBuscardocumento"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="45dp"
+            android:text="@string/btnBuscardocumento"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/fondoBarra"/>
+        <ImageButton
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:src="@drawable/cargadocu"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="25dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btnAceptardoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnAceptardoc"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/fondoBarra"/>
+
+            <Button
+                android:id="@+id/btnCancelardoc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btnCancelardoc"
+                android:textAllCaps="false"
+                android:layout_marginLeft="80dp"
+                android:backgroundTint="@color/fondoBarra"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

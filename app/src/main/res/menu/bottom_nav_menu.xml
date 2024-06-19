@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navCitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_local_hospital_24"
+        android:title="Citas" />
+
+    <item
+        android:id="@+id/navFarmacia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/baseline_medical_services_24"
+        android:title="Farmacia" />
+
+    <item
+        android:id="@+id/navNewCitas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/round_add_circle_outline_24"
+        android:title="Nueva Cita" />
+
+    <item
+        android:id="@+id/navBuzon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/round_mail_24"
+        android:title="Buzon"/>
+
+    <item
+        android:id="@+id/navPerfil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:icon="@drawable/round_person_24"
+        android:title="Perfil" />
+
+
+</menu>

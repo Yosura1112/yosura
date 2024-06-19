@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.TarjetaFragment"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp"> <!-- Margen inferior añadido -->
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/tarjetas"
+                android:layout_margin="20dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/txtTarjeta"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+        <!-- Texto "Número de tarjeta" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/nroTarjeta"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/> <!-- Margen inferior añadido -->
+
+        <!-- ComboBox para el número de tarjeta (aquí debes ajustar el estilo y la lógica según tus necesidades) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:hint="@string/IngreseTarjeta"
+            android:layout_marginBottom="8dp"/> <!-- Margen inferior añadido -->
+
+        <!-- Texto "Nombre del titular" -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtTitular"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"/> <!-- Margen inferior añadido -->
+
+        <!-- ComboBox para el nombre del titular -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/IngreseTitular"
+            android:layout_marginBottom="8dp"/> <!-- Margen inferior añadido -->
+
+        <!-- LinearLayout para Expiración y Código -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="8dp"> <!-- Margen inferior añadido -->
+
+            <!-- Texto "Expiración" -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/expiracion"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <!-- EditText para la fecha de expiración -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="@string/hint_expiracion"
+                android:inputType="number"
+                android:maxLength="5"/>
+
+        </LinearLayout>
+
+        <!-- LinearLayout para ComboBox de Expiración y Código -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="8dp"> <!-- Margen inferior añadido -->
+
+            <!-- Texto "Código" -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/codigo"
+                android:textSize="16sp"
+                android:textColor="@android:color/black"/>
+
+            <!-- EditText para el código de seguridad -->
+            <EditText
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:inputType="numberPassword"
+                android:hint="@string/hint_cvc"
+                android:maxLength="3"/>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnUsarTarjeta"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="@color/fondoBarra"/> <!-- Margen superior añadido -->
+
+    </LinearLayout>
+
+</FrameLayout>

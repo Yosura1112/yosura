@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.CitasFragment"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="26dp">
+
+        <ImageButton
+            android:id="@+id/btnPrimeracita"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="center"
+            android:src="@drawable/cita1"
+            />
+
+        <ImageButton
+            android:id="@+id/btnSegundacita"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="center"
+            android:src="@drawable/cita2"
+            />
+
+        <ImageButton
+            android:id="@+id/btnTerceracita"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="center"
+            android:src="@drawable/cita3"
+            />
+
+        <ImageButton
+            android:id="@+id/btnCuartacita"
+            android:layout_width="350dp"
+            android:layout_height="80dp"
+            android:layout_margin="10dp"
+            android:scaleType="center"
+            android:src="@drawable/cita4" />
+
+        <Button
+            android:id="@+id/btnNuevacita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnNuevacita"
+            android:backgroundTint="@color/fondoBarra"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"/>
+        <Button
+            android:id="@+id/btnBuscarDoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnBuscarDoctor"
+            android:backgroundTint="@color/fondoBarra"
+            android:textAllCaps="false"
+            android:layout_margin="20dp"/>
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.NuevaSugerenciaActivity"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="25dp"
+        android:layout_marginVertical="15dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginVertical="50dp"
+            android:src="@drawable/consulta3" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/SugLblMensajePortalAgregarSugerencia"
+            android:gravity="center_horizontal"
+            android:textSize="25sp"
+            android:textStyle="bold|italic"
+            android:layout_weight="20"
+            android:layout_marginVertical="5dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint_ingrese_nombre"
+            app:endIconMode="clear_text"
+            app:counterEnabled="false"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            app:hintTextColor="@color/fondoBarra"
+            android:textColorHint="@color/fondoBarra"
+            app:cursorColor="@color/fondoBarra"
+            app:boxStrokeColor="@color/fondoBarra">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SugTxtNombreSugerencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:maxLength="50"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint_escribe_comentario"
+            app:endIconMode="clear_text"
+            app:counterEnabled="false"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginVertical="20dp"
+            app:hintTextColor="@color/fondoBarra"
+            android:textColorHint="@color/fondoBarra"
+            app:cursorColor="@color/fondoBarra"
+            app:boxStrokeColor="@color/fondoBarra">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SugTxtComentarioSugerencia"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:backgroundTint="@color/fondoBarra"
+            android:id="@+id/SugBtnAgregar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100dp"
+            android:layout_margin="20dp"
+            android:text="@string/button_agregar"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:backgroundTint="@color/fondoBarra"
+            android:id="@+id/SugBtnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="20dp"
+            android:text="@string/button_cancelar"
+            android:textAllCaps="false"/>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

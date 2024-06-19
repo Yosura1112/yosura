@@ -1,0 +1,218 @@
+<resources>
+    <string name="app_name">ProyectoUFC</string>
+    <string name="carLblMensaje"> Cargando Inicio de sesión ... </string>
+    <string name="logTxtCorreo">Correo</string>
+    <string name="logTxtClave">Clave</string>
+    <string name="logChkRecordar">Recordar sesión</string>
+    <string name="logBtnIniciarSesión">Iniciar sesión</string>
+    <string name="logBtnRegistrate">Registrate</string>
+    <string name="logBtnSalir">Salir</string>
+    <string name="carLblMensajeRegistro">Registrar Usuario</string>
+    <string name="logTxtNombreRegistro">Ingrese nombre(s)</string>
+    <string name="logTxtApellidoRegistro">Ingrese apellidos</string>
+    <string name="logTxtDniRegistro">Ingrese N° DNI</string>
+    <string name="logTxtFechaNac">Fecha de nacimiento</string>>
+    <string name="logTxtTelefonoRegistro">Ingrese número telefonico</string>
+    <string name="logTxtDireccionRegistro">Ingrese su dirección</string>
+    <string name="logTxtCorreoRegistro">Ingrese correo</string>>
+    <string name="logTxtClaveRegistro">Ingrese su clave</string>
+    <string name="logChkTerminosRegistro">Acepto términos y condiciones</string>
+    <string name="logBtnCrearRegistro">Crear cuenta</string>
+    <string name="logBtnCancelarRegistro">Cancelar</string>
+    <string name="carlblUsucreado">Creando Usuario...</string>
+    <string name="bieLblSaludo">Bienvenido @user</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>>
+
+    <!--STRING DE NUEVAS CITAS-->
+
+    <string name="frg_newCita_paciente">Paciente</string>
+    <string name="frg_newCita_doctor">Doctor</string>
+    <string name="frg_newCita_especialidad">Especialidad</string>
+    <string name="frg_newCita_fecha">Fecha</string>
+    <string name="frg_newCita_titulo">Agenda tu Cita</string>
+    <string name="frg_newCita_correo">Correo</string>
+    <string name="reservar_cita">Reservar Cita</string>
+    <string name="cancelar">Cancelar</string>
+
+    //SUGERENCIAS
+    <string name="SugLblMensajePortalAgregarSugerencia">Portal Agregar Sugerencia</string>
+    <string name="SugTxtNombreSugerencia">Nombre</string>
+    <string name="SugTxtComentarioSugerencia">Ingrese comentario</string>
+    <string name="SugBtnAgregar">Agregar</string>
+    <string name="SugBtnCancelar">Cancelar</string>
+
+    //CONSULTAS
+    <string name="CsLblMensajeCardiologia">1.Cardiologia</string>
+    <string name="CsLblMensajeNeurologia">2.Neurologia</string>
+    <string name="CsBtnSalir">Salir</string>
+
+    //LISTA SUGERENCIA
+    <string name="LsTxtSugerencia1">Primera Sugerencia ............</string>
+    <string name="LsTxtSugerencia2">Segunda Sugerencia ............</string>
+    <string name="LsTxtSugerencia3">Tercera Sugerencia ............</string>
+    <string name="LsTxtSugerencia4">Cuarta Sugerencia ............</string>
+    <string name="LsTxtSugerencia5">Quinta Sugerencia ............</string>
+    <string name="LsBtnNuevo">Nuevo</string>
+    <string name="LsBtnCitas">Citas</string>
+    <string name="LsBtnInicio">Inicio</string>
+    <string name="LsBtnMedicamentos">Medicamentos</string>
+    <string name="LsBtnSugerencias">Sugerencias</string>
+    <string name="LsBtnPerfil">Perfil</string>
+
+    //Fragment Perfil
+    <string name="mi_perfil">Mi Perfil</string>
+    <string name="datos_personales">Datos Personales</string>
+    <string name="nombres_apellidos_hint">Nombres Y Apellidos</string>
+    <string name="dni_hint">DNI</string>
+    <string name="datos_contacto">Datos de Contacto</string>
+    <string name="numero_celular_hint">Número Celular</string>
+    <string name="correo_electronico_hint">Correo Electrónico</string>
+    <string name="direccion_hint">Dirección</string>
+    <string name="preferencias">Preferencias</string>
+    <string name="notificaciones">Notificaciones</string>
+    <string name="sonido">Sonido</string>
+    <string name="editar_perfil">Editar Perfil</string>
+    <string name="guardar_cambios">Guardar Cambios</string>
+    <string name="cerrar_sesion">Cerrar Sesión</string>
+
+
+    //Activity_Menu_citas
+    <string name="btnNuevacita">Nueva cita</string>
+    <string name="btnUsuariocitas">Citas</string>
+    <string name="btnUsuariomedicamentos">Medicamentos</string>
+    <string name="btnUsuarioinicio">Inicio</string>
+    <string name="btnUsuariosugerencias">Sugerencias</string>
+    <string name="btnUsuarioperfil">Perfil</string>
+    //Activity_crear_nueva_cita
+    <string name="logTxtMotivocita">Motivo de nueva cita</string>
+    <string name="btnCrearnuevacita">Crear nueva cita</string>>
+    <string name="btnCancelarcita">Cancelar cita</string>
+    <string name="btnAtrasnuevacita">Atras</string>
+    <string name="logTxtNombredoctor">Ingrese nombre del doctor</string>
+    <string name="logTxtFechacita">Ingresa fecha para atención</string>
+    //Activity_Infor_cita
+    <string name="btnAtrasinfocita">Atras</string>>
+    <string name="logTxtNomdoctor">Doctor: Yojhan Jesus Padilla Inga</string>
+    <string name="btnUnirseconsulta">Unirse a la consulta</string>
+    <string name="btnCargardocumento">Cargar documento</string>
+    //Cargar documento
+    <string name="btnAtrascargardoc">Atras</string>
+    <string name="btnBuscardocumento">Buscar documento</string>
+    <string name="btnAceptardoc">Aceptar</string>
+    <string name="btnCancelardoc">Cancelar</string>
+    //Unirse a consulta
+    <string name="btnAtrasuniconsulta">Atras</string>
+    <string name="btnUnirse">Unirse a consulta</string>
+    <string name="btnUnirseCons">Unirse a consulta</string>
+
+    <!-- INTERFAZ DE TIENDA DE MEDICAMENTOS -->
+
+    <string name="LblTituloMedicinas">Busca tu medicina</string>
+    <string name="LblNombreMedicina">Nombre</string>
+    <string name="btnBuscar">Buscar</string>
+    <string name="btnAgregarCarrito">Agregar Carrito</string>
+    <string name="btnCarrito">Carrito</string>
+    <string name="btnHistorialCompras">Compras</string>
+
+    <!-- LISTA DE MEDICAMENTOS -->
+
+    <string name="Lblmedicamento1">Paracetamol</string>
+    <string name="Lblmedicamento2">Nolotil</string>
+    <string name="Lblmedicamento3">Adiro 100</string>
+    <string name="Lblmedicamento4">Enantyum</string>
+    <string name="Lblmedicamento5">Eutirox</string>
+    <string name="Lblmedicamento6">Ventolin</string>
+    <string name="Lblmedicamento7">Sintrom</string>
+    <string name="Lblmedicamento8">Orfidal</string>
+    <string name="Lblprecio">s/.100</string>
+
+    <!-- INTERFAZ DE CARRITO -->
+
+    <string name="LblTituloCarrito">Carrito</string>
+    <string name="btnPagarCarrito">Pagar</string>
+    <string name="btnCancelarCarrito">Cancelar</string>
+    <string name="LblTotal">Monto total:</string>
+    <string name="LblPrecioTotal">S/.400</string>
+
+
+    <!-- ARRAY PARA CANTIDADES EN LAS COMPRAS -->
+
+    <string-array name="quantities">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string name="txtNombreEmpresa">Medical</string>
+    <string name="txtEncuentraloenelmenudeyape">Encuentralo en el menú de yape</string>
+    <string name="txtYapear">Yapear</string>
+    <string name="txtIngreseCelular">Celular Yape</string>
+    <string name="hint_celular_yape">Ingresa tu celular Yape</string>
+    <string name="hint_codigo_aprobacion">Ingresa tu código de aprobación</string>
+    <string name="txtCodigoAprobacion">Código de Aprobación</string>
+    <string name="txt_nombre_empresa">Pagar con PayPal</string>
+    <string name="articulo_nombre">Nolotil</string>
+    <string name="articulo_descripcion">Nolotil 575 mg cápsulas duras</string>
+    <string name="articulo_precio">Precio: $2.00</string>
+    <string name="hint_cantidad_pagar">Ingrese cantidad a pagar</string>
+    <string name="btn_pagar_paypal">Pagar con PayPal</string>
+    <string name="logo_paypal">Logo de PayPal</string>
+    <string name="txtTarjeta">Tarjeta de crédito o débito</string>
+    <string name="nroTarjeta">Número de tarjeta</string>
+    <string name="IngreseTarjeta">Ingresa el número de tarjeta</string>
+    <string name="txtTitular">Nombre del titular</string>
+    <string name="IngreseTitular">Ingresa el nombre del titular</string>
+    <string name="btnUsarTarjeta">Usar Tarjeta</string>
+    <string name="expiracion">Expiración</string>
+    <string name="codigo">Código</string>
+    <string name="hint_expiracion">MM/YY</string>
+    <string name="hint_cvc">CVC</string>
+    <string name="info_pago">Información para tu pago</string>
+    <string name="finalizar_compra">¡Estás a punto de finalizar tu compra en JUSTO!</string>
+    <string name="empresa_pagoefectivo">Empresa: PagoEfectivo</string>
+    <string name="servicio_pagoefectivo">Servicio: PagoEfectivo Soles</string>
+    <string name="pagar_antes_fecha">Págalo antes del Martes 30/04/2024 - 08:51 PM</string>
+    <string name="puedes_pagar_en">Puedes pagar en:</string>
+    <string name="primera_sugerencia">Primera Sugerencia ............</string>
+    <string name="segunda_sugerencia">Segunda Sugerencia ............</string>
+    <string name="tercera_sugerencia">Tercera Sugerencia ............</string>
+    <string name="cuarta_sugerencia">Cuarta Sugerencia ............</string>
+    <string name="quinta_sugerencia">Quinta Sugerencia ............</string>
+    <string name="sexta_sugerencia">Sexta Sugerencia ............</string>
+    <string name="nuevo_sugerencia">Nuevo Sugerencia</string>
+    <string name="hint_ingrese_nombre">Ingrese su Nombre</string>
+    <string name="hint_escribe_comentario">Escribe tu comentario aquí...</string>
+    <string name="button_agregar">Agregar</string>
+    <string name="button_cancelar">Cancelar</string>
+    <string name="hint_correo">Correo</string>
+    <string name="hint_contraseña">Contraseña</string>
+    <string name="log_chk_recordar">Recordar</string>
+    <string name="btn_iniciar_sesión">Iniciar Sesión</string>
+    <string name="btn_registrarse">Registrarse</string>
+    <string name="btn_salir">Salir</string>
+    <string name="btn_atras_info_cita">Atrás</string>
+    <string name="log_txt_nom_doctor">Yojhan Jesús Padilla Inga</string>
+    <string name="especialidad_proctologo">Especialidad: Proctólogo</string>
+    <string name="fecha_cita_25_abril_2024">Fecha de cita: 25 de Abril de 2024</string>
+    <string name="hora_16_00_hrs">Hora: 16:00 hrs</string>
+    <string name="btn_unirse_consulta">Unirse a Consulta</string>
+    <string name="btn_cargar_documento">Cargar Documento</string>
+    <string name="editar_informacion">Editar Información</string>
+    <string name="nombres">Nombres</string>
+    <string name="apellidos">Apellidos</string>
+    <string name="correo">Correo</string>
+    <string name="numero_celular">Número Celular</string>
+    <string name="fecha_nacimiento">Fecha de Nacimiento</string>
+    <string name="btn_guardar_cambios">Guardar Cambios</string>
+    <string name="btnBuscarDoctor">Doctores cercanos</string>
+    <string name="logChkTerminosCondiciones">He leído y acepto términos y condiciones</string>
+
+</resources>

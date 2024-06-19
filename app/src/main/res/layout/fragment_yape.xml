@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragmentos.YapeFragment"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="20dp">
+        <TextView
+            android:id="@+id/txtNombreEmpresa"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtNombreEmpresa"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:gravity="center"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtIngreseCelular"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/> <!-- Aumento del margen inferior -->
+
+        <!-- ComboBox para el número de tarjeta (aquí debes ajustar el estilo y la lógica según tus necesidades) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_celular_yape"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/> <!-- Aumento del margen inferior -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtCodigoAprobacion"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="10dp"/> <!-- Aumento del margen inferior -->
+
+        <!-- ComboBox para el número de tarjeta (aquí debes ajustar el estilo y la lógica según tus necesidades) -->
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_codigo_aprobacion"
+            android:inputType="number"
+            android:layout_marginBottom="10dp"/> <!-- Aumento del margen inferior -->
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/txtEncuentraloenelmenudeyape"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="1dp"/> <!-- Aumento del margen inferior -->
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/txtYapear"
+            android:textAllCaps="false"
+            android:layout_marginTop="20dp"
+            android:layout_marginHorizontal="20dp"
+            android:background="@color/btnYapear"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/yape_logo"
+            android:layout_margin="20dp"
+            android:layout_gravity="center_horizontal"/>
+
+    </LinearLayout>
+
+</FrameLayout>

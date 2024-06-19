@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragmentos.NuevasCitasFragment"
+    android:background="@color/fondo_proyecto">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/frg_newCita_titulo"
+            android:gravity="center_horizontal"
+            android:textSize="40dp"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/frg_newCita_paciente"
+            app:endIconMode="clear_text"
+            app:counterEnabled="false"
+            android:layout_margin="10dp"
+            app:hintTextColor="@color/fondoBarra"
+            android:textColorHint="@color/fondoBarra"
+            app:cursorColor="@color/fondoBarra"
+            app:boxStrokeColor="@color/fondoBarra">
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/logTxtPaciente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/cboEspecialidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <Spinner
+                android:id="@+id/cboDoctor"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="15dp"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/frg_newCita_fecha"
+            app:counterEnabled="false"
+            app:endIconMode="clear_text"
+            app:hintTextColor="@color/fondoBarra"
+            android:textColorHint="@color/fondoBarra"
+            app:cursorColor="@color/fondoBarra"
+            app:boxStrokeColor="@color/fondoBarra">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/logTxtFechaCita"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="false"
+                android:focusable="false"
+                android:inputType="none" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/frg_newCita_correo"
+            app:endIconMode="clear_text"
+            app:counterEnabled="false"
+            android:layout_margin="10dp"
+            app:hintTextColor="@color/fondoBarra"
+            android:textColorHint="@color/fondoBarra"
+            app:cursorColor="@color/fondoBarra"
+            app:boxStrokeColor="@color/fondoBarra">>
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/logTxtCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"/>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/logBtnReservar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/reservar_cita"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/fondoBarra"/>
+        <Button
+            android:id="@+id/logBtnCancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cancelar"
+            android:layout_margin="10dp"
+            android:textAllCaps="false"
+            android:backgroundTint="@color/fondoBarra"/>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</FrameLayout>

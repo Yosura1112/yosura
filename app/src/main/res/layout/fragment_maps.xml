@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="16dp"
+    app:cardUseCompatPadding="true">
+
+    <!-- Usa un LinearLayout para organizar el TextView y el Fragment -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!-- TextView para el título -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Encuentra a tu doctor más cercano"
+            android:textColor="@color/black"
+            android:gravity="center"
+            android:padding="16dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="#FFFFFF" />
+
+        <!-- Fragment del mapa -->
+        <fragment
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            tools:context=".fragmentos.MatchFragment" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

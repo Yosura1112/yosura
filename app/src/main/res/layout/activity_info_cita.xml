@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".actividades.InfoCitaActivity"
+    android:background="@color/fondo_proyecto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnAtrasinfocita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="20dp"
+            android:text="@string/btn_atras_info_cita"
+            android:textAllCaps="false"
+            tools:layout_editor_absoluteX="16dp"
+            tools:layout_editor_absoluteY="16dp"
+            android:backgroundTint="@color/fondoBarra"/>
+
+        <TextView
+            android:id="@+id/logTxtNomdoctor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/log_txt_nom_doctor"
+            android:textSize="15dp"
+            android:paddingBottom="20dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="218dp"
+            android:src="@drawable/facedoctor"
+            android:paddingBottom="20dp"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/especialidad_proctologo"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/fecha_cita_25_abril_2024"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:text="@string/hora_16_00_hrs"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnUnirseconsulta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_marginHorizontal="50dp"
+                android:text="@string/btn_unirse_consulta"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/fondoBarra"/>
+
+            <Button
+                android:id="@+id/btnCargardocumento"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="50dp"
+                android:text="@string/btn_cargar_documento"
+                android:textAllCaps="false"
+                android:backgroundTint="@color/fondoBarra"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
